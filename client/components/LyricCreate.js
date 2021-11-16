@@ -43,6 +43,7 @@ const mutation = gql`
       id
       lyrics {
         id
+        likes
         content
       }
     }
